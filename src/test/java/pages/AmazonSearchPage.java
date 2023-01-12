@@ -17,6 +17,7 @@ public class AmazonSearchPage {
     }
 
 
+
     @FindBy(className = "s-breadcrumb")
     private WebElement resultText;
 
