@@ -17,3 +17,5 @@ Feature: Google Arama Test Feature
   Scenario: Kullanici selenium aradiginda samsung gormelidir
     When Kullanici selenium kelimesini arar
     Then Kullanici sayfada selenium kelimesi gectigini dogrular
+
+    # http://192.168.0.100:4444
