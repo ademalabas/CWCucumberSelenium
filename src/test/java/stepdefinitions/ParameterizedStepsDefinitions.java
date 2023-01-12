@@ -1,5 +1,7 @@
 package stepdefinitions;
 
+import io.cucumber.java.en.And;
+import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 import org.junit.Assert;
@@ -26,4 +28,23 @@ public class ParameterizedStepsDefinitions {
     }
 
 
+    @Given("Ilk sayi {int}")
+    public void ilkSayi(int arg0) {
+    }
+
+    @And("Ikinci sayi {int}")
+    public void ikinciSayi(int arg0) {
+    }
+
+    @When("Bu sayilari + operatorune sokarsam")
+    public void buSayilariOperatoruneSokarsam() {
+    }
+
+    @Then("sonuc {int} olmalidir")
+    public void sonucOlmalidir(int arg0) {
+    }
+
+    @Given("Ismim {string}")
+    public void ismim(String arg0) {
+    }
 }

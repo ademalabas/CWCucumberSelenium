@@ -27,6 +27,7 @@ public class TagsStepDefinition {
         System.out.println("Regression test calisti");
     }
 
+
     @Then(": Regression test basarili olmali")
     public void regressionTestBasariliOlmali() {
     }
