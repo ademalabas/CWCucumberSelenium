@@ -22,7 +22,6 @@ public class ParameterizedStepsExampleStepDefinitions {
         int2 = sayi;
         System.out.println("int2 = " + int2);
     }
-
     @When("Bu sayilari {word} operatorune sokarsam")
     public void buSayilariOperatoruneSokarsam(String operator){
         switch (operator){
@@ -45,13 +44,10 @@ public class ParameterizedStepsExampleStepDefinitions {
         System.out.println("sonuc = " + sonuc);
     }
 
-
     @Then("sonuc {int} olmalidir")
     public void sonucOlmalidir(int sayi){
         Assert.assertEquals(sayi, sonuc);
     }
-
-
 
         // RegEx Edition
 

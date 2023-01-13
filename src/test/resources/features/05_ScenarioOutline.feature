@@ -10,6 +10,6 @@ Feature: Google Arama Feature
 
     Examples:
       |aranacakKelime|dogrulanacakKelime|
-      |samsung       |samsungabc        |
+      |samsung       |samsung           |
       |cucumber      |cucumber          |
       |selenium      |selenium          |
