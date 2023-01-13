@@ -14,7 +14,6 @@ import org.junit.runner.RunWith;
         dryRun = false
 )
 
-
 /*
 "@tag" -> @tag ile etiketlenen senaryolar
 "@tag1 and not @tag2" -> @tag1 ile etiketlenen senaryolar, @tag2 ile etkilenmeyen senaryolar
@@ -24,8 +23,6 @@ import org.junit.runner.RunWith;
 */
 
 
-
 public class TagRunner {
-
 
 }
