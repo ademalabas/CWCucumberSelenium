@@ -16,11 +16,14 @@ public class SeleniumGrid {
 
     public static void main(String[] args) throws MalformedURLException {
 
+
         DesiredCapabilities cap =new DesiredCapabilities();
         cap.setPlatform(Platform.WIN10);
         cap.setBrowserName("firefox");
 
+
          driver = new RemoteWebDriver(new URL("http://192.168.0.100:4444"),cap);
+
         // driver = new RemoteWebDriver(new URL("http://192.168.0.100:4444"),new ChromeOptions());
 
         driver.manage().window().maximize();
