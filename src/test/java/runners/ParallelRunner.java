@@ -14,8 +14,6 @@ import org.junit.runner.RunWith;
         glue = {"stepdefinitions", "hooks"}
 )
 
-
-
 public class ParallelRunner {
 
 
